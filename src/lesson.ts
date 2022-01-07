@@ -46,7 +46,7 @@ export default class Calculator {
      * @returns {any} a kulcs alapján kiolvasott tulajdonság értéke.
      */
     getProperty(user:{name: string, email: string}){
-        return user.name:any;
+        return user.name;
     }
 
 }
